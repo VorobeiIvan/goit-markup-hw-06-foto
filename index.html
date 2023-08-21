@@ -850,7 +850,7 @@ END Footer | SECTION 7
 
     <!-- Header MOBIL MENU   -->
 
-    <header class="mobil-header section">
+    <header class="mobil-header section visually-hidden" >
       <div class="mobil-header-content-box container">
         <!-- ---------- Logo ---------- -->
         <a class="header-logo logo link" href="./index.html"
@@ -873,8 +873,98 @@ END Footer | SECTION 7
 
     <!-- MOBIL MENU NAVIGATION  -->
 
-    
+      <div class="backdrop is-hidden" data-mobile-menu>
+        <div class="modal">
+          <!-- ---------- Modal close-btn ---------- -->
+          <button type="button" class="close-btn" data-mobile-menu-close>
+            <svg
+              class="close-btn-icon"
+              width="8"
+              height="8"
+              aria-label="Modal window close icon"
+            >
+              <use href="./images/icons.svg#icon-modal-close"></use>
+            </svg>
+          </button>
 
+          <!--  Main navigation  -->
+
+          <div class="header-content-box container">
+            <nav class="header-navigation">
+              <ul class="main-nav-list list">
+                <li class="nav-list-item">
+                  <a class="nav-link link active" href="./index.html"
+                    >Studio
+                  </a>
+                </li>
+                <li class="nav-list-item">
+                  <a class="nav-link link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-list-item">
+                  <a class="nav-link link" href="">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- Contacts -->
+
+            <address class="contats">
+              <ul class="contacts-list list">
+                <li>
+                  <a class="contact-link link" href="mailto:info@devstudio.com"
+                    >info@devstudio.com
+                  </a>
+                </li>
+                <li>
+                  <a class="contact-link link" href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+
+           <!-- ---------- Social media box ---------- -->
+        <div class="mobil-social-media-box">
+          
+          <!-- ---------- Social media  ---------- -->
+          <ul class="social-media-list list">
+            <li class="social-media-item">
+              <a class="social-media-link link " href="">
+                <svg class="icon social-media-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <!-- ---------- twitter ---------- -->
+            <li class="social-media-item">
+              <a class="social-media-link link " href="">
+                <svg class="icon social-media-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <!-- ---------- facebook ---------- -->
+            <li class="social-media-item">
+              <a class="social-media-link link " href="">
+                <svg class="icon social-media-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <!-- ---------- linkedin ---------- -->
+            <li class="social-media-item">
+              <a class="social-media-link link " href="">
+                <svg class="icon social-media-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        </div>
+      </div>
 
 
     <!-- #endregion 
