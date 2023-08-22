@@ -940,7 +940,7 @@ svg {
     margin-bottom: 16px;
 }
 
-.modal-form-container{
+.modal-form-container {
     margin-bottom: 8px;
 }
 
@@ -950,7 +950,7 @@ svg {
     letter-spacing: 0.04em;
     color: var(--crl-subtle-text, #8E8F99);
     display: block;
-    margin-bottom: 4px; 
+    margin-bottom: 4px;
 }
 
 .wrapper-input-svg {
@@ -958,22 +958,21 @@ svg {
 }
 
 .modal-input {
-    
+
     width: 100%;
     height: 40px;
     border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
     border-radius: 4px;
     background-color: transparent;
     padding-left: 38px;
-    outline: transparent; 
+    outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     color: var(--crl-modal-overlay, #2E2F42);
 
 }
 
-.modal-input:focus
- {
+.modal-input:focus {
     border-color: #4D5AE5;
 }
 
@@ -981,17 +980,19 @@ svg {
     position: absolute;
     left: 16px;
     top: 50%;
-    transform: translateY(-50%); 
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input:focus+.modal-input-icon {
-    fill: #4D5AE5; 
+    fill: #4D5AE5;
 }
-.wrapper-textarea-svg{
+
+.wrapper-textarea-svg {
     margin-bottom: 16px;
 }
-.modal-message:focus{
+
+.modal-message:focus {
     border-color: #4D5AE5;
 }
 
@@ -1000,7 +1001,7 @@ svg {
     width: 100%;
     height: 120px;
     font-size: 12px;
-    line-height: 1.17; 
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -1008,20 +1009,21 @@ svg {
     background-color: transparent;
     padding: 8px 16px;
     outline: transparent;
-     resize: none;
-     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
+    resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
-.modal-input-label:focus + .modal-message {
-    border-color: #4D5AE5; 
+.modal-input-label:focus+.modal-message {
+    border-color: #4D5AE5;
 }
 
-.container-checkbox{
-    margin-bottom: 24px; 
+.container-checkbox {
+    margin-bottom: 24px;
 }
-.modal-input-label{
-    display: block; 
+
+.modal-input-label {
+    display: block;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -1029,35 +1031,35 @@ svg {
 }
 
 .wrapper-checkbox-svg {
-    width: 16px; 
-    height: 16px; 
-    border: 1px solid rgba(46, 47, 66, 0.4); 
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
     align-items: center;
-    justify-content: center; 
-    fill: transparent; 
+    justify-content: center;
+    fill: transparent;
 
 }
 
-.modal-checkbox:focus + .modal-checkbox-label>.wrapper-checkbox-svg{
+.modal-checkbox:focus+.modal-checkbox-label>.wrapper-checkbox-svg {
     border-color: #404bbf;
 }
 
-.modal-checkbox-label{
-    display: block; 
+.modal-checkbox-label {
+    display: block;
     font-size: 12px;
-    line-height: 1.17; 
-    letter-spacing: 0.04em; 
-    color: var(--crl-subtle-text,#8e8f99);
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--crl-subtle-text, #8e8f99);
 }
 
 
-.modal-checkbox:checked + .modal-checkbox-label>.wrapper-checkbox-svg{
-    background-color:var(--crl-pressed-state,#404bbf); 
+.modal-checkbox:checked+.modal-checkbox-label>.wrapper-checkbox-svg {
+    background-color: var(--crl-pressed-state, #404bbf);
     border: none;
-    fill: var(--crl-light,#F4F4FD); 
+    fill: var(--crl-light, #F4F4FD);
 }
 
 
@@ -1066,12 +1068,12 @@ svg {
 }
 
 .modal-btn {
-    margin-right: auto; 
-    margin-left: auto; 
-    display: block; 
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
     min-width: 169px;
     height: 56px;
-    font-family: "Roboto", sans-serif ;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -1079,7 +1081,7 @@ svg {
     color: #ffffff;
     cursor: pointer;
     background-color: #4D5AE5;
-    border: none; 
+    border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -1087,7 +1089,113 @@ svg {
 
 
 
+/* MOBIL ADAPTATION */
+
+
+
+/* <!-- BURGER MENU --> */
+
+/* BTN WITH ICON */
+.container-burger-menu {
+    display: none;
+    margin-block: 24px;
+}
+
+.burger-menu-btn {
+    border: none;
+    background: none;
+}
+
+.burger-menu-icon {
+    display: block;
+    stroke: #2E2F42;
+}
+
+/* MODAL BURGER MENU */
+
+.modal-burger-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 428px;
+    height: 796px;
+    padding: 40px 35px 40px 40px;
+
+    
+    background: var(--white, #FFF);
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+
+
+}
+
+/* BURGER MENU */
+
+.burger-menu-navigation {
+    margin-top: 80px;
+    margin-bottom: auto;
+}
+
+.burger-menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    color: var(--navyblue, #2E2F42);
+}
+
+.burger-menu-link.active {
+    position: relative;
+    color: #404BBF;
+}
+
+/* BURGER MENU Contacts */
+
+.burger-menu-contacts {}
+
+.burger-menu-contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 48px;
+}
+
+.burger-menu-phone-link {
+    color: var(--iris, #4D5AE5);
+}
+
+.burger-menu-email-link {
+    color: var(--slate, #434455);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.burger-menu-social-media-list{
+    display: flex;
+    gap:56px;
+}
 
 
 
 
+/* ADAPTIVE  */
+
+@media (max-width:428px) {
+
+    .main-nav-list,
+    .contacts {
+        display: none;
+    }
+
+    .container-burger-menu {
+        display: inline;
+    }
+}
