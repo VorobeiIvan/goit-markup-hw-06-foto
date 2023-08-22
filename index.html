@@ -37,7 +37,7 @@
           <span class="logo-dark">Studio</span>
         </a>
         <!-- ---------- Menu ---------- -->
-        <ul class="main-nav-list list">
+        <ul class="main-nav-list list  ">
           <li class="nav-list-item">
             <a class="nav-link link active" href="./index.html">Studio </a>
           </li>
@@ -54,7 +54,7 @@
       Contacts
     --------------------------------------
     -->
-      <address class="contacts">
+      <address class="contacts ">
         <ul class="contacts-list list">
           <li>
             <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com
@@ -69,7 +69,8 @@
       <!-- MOBIL VERSION HEADER WITH BURGER MENU -->
 
       <div class="container-burger-menu">
-        <button class="burger-menu-btn btn" type="button">
+        <button class="burger-menu-btn btn js-open-menu" aria-expanded="false"
+        aria-controls="mobile-menu" >
           <svg class="burger-menu-icon" width="32" height="22">
             <use href="./images/icons.svg#icon-burger-menu"></use>
           </svg>
@@ -235,7 +236,7 @@ START Main content
         <!-- ---------- Title ---------- -->
         <h2 class="team-title title">Our Team</h2>
 
-        <ul class="team-list list">
+        <ul class="skills-list-list list">
           <!-- block 1 -->
           <li class="team-list-item">
             <img class="team-img image" src="./images/01-studio/05-our-team/img-1.jpg" alt="Man's photo" width="264"
@@ -677,19 +678,19 @@ END Footer | SECTION 7
 
   <!-- MODAL BURGER MENU -->
 
-  <div class="modal-burger-menu " data-mobil-menu>
+  <div class="menu-container js-menu-container">
 
     <!-- ---------- Modal close-btn ---------- -->
-    <button type="button" class="close-btn" data-modal-close>
+    <button  class="close-btn js-close-menu " >
       <svg class="close-btn-icon" width="8" height="8" aria-label="Modal window close icon">
         <use href="./images/icons.svg#icon-modal-close"></use>
       </svg>
     </button>
 
 
-    <nav class="burger-menu-navigation">
+    <nav class="burger-menu-navigation ">
       <!-- ---------- Menu ---------- -->
-      <ul class="burger-menu-list list">
+      <ul class="burger-menu-list list ">
         <li class="burger-menu-item">
           <a class="burger-menu-link link active" href="./index.html">Studio </a>
         </li>
@@ -703,7 +704,7 @@ END Footer | SECTION 7
     </nav>
 
     <!-- Contacts-->
-    <address class="burger-menu-contacts">
+    <address class="burger-menu-contacts ">
       <ul class="burger-menu-contacts-list list">
         <li>
           <a class="burger-menu-phone-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
@@ -717,7 +718,7 @@ END Footer | SECTION 7
 
     <!-- ---------- Social media  ---------- -->
 
-      <ul class="burger-menu-social-media-list list">
+      <ul class="burger-menu-social-media-list list ">
         <!-- ---------- instagram ---------- -->
         <li class="social-media-item">
           <a class="social-media-link link" href="">
@@ -751,8 +752,15 @@ END Footer | SECTION 7
           </a>
         </li>
       </ul>
-
   </div>
+
+  <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
 
 
 </body>
