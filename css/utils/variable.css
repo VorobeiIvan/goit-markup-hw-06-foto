@@ -1,0 +1,109 @@
+/* 
+======================================== 
+START Style Guide 
+======================================== 
+*/
+
+:root {
+    /* 
+    ========================================  
+    COLORS
+    ========================================  
+    */
+    --iris-color-primary-brand: #4D5AE5;
+    /* Iris| Primary Brand | CTAs,Focused,Active states,Links */
+
+    --ocean-color-pressed-state: #404BBF;
+    /* OCEAN | Pressed state |CTAs */
+
+    --navyblue-color-dark: #2E2F42;
+    /* Navy blue | Dark | Overlays,Shadows,Headings */
+
+    --green-color-success: #31D0AA;
+    /* GREEN | Success | Valid fields, Success messages */
+
+    --slate-color-text: #434455;
+    /* SLATE| Text | Body text */
+
+    --lightslate-color-subtle-text: #8E8F99;
+    /* LIGHT SLATE | Subtle Text | Helper text, Deemphasized text  */
+
+    --cornflower-color-accent: #E7E9FC;
+    /* Cornflower | Accent | Accent color, Hairlines, Subtle backgrounds */
+
+    --cloud-color-light: #F4F4FD;
+    /*CLOUD | Light | Light mode backgrounds, Light mode Dialogs/alerts */
+
+    --navybluemodal-color-modal-overlay: #2E2F42;
+    /* NAVY BLUE modal | Modal overlay | Overlay */
+
+    --grey-color-hero-background: #2E2F42;
+    /* GREY | Hero background | Hero image background */
+
+    --white-color-white-background: #FFFFFF;
+    /* WHITE|  White background | Header,  team card background */
+
+    --dairy-color-modal-background: #FCFCFC;
+    /* Dairy| Modal background | Modal background  */
+
+    /* 
+    ======================================== 
+    TYPOGRAPHY 
+    ========================================   
+    */
+    /* ========== ========== Body | Main text | p ========== ========== */
+    --body-font-family: "Roboto", sans-serif;
+    --body-font-size: 16px;
+    --body-font-weight: 400;
+    --body-line-height: 1.5;
+    --body-letter-spacing: .02em;
+
+    /* ========== ========== Header 1 | title-hero| h1 ========== ========== */
+    --h1-font-size: 56px;
+    --h1-line-height: 1.07;
+    --h1-letter-spacing: .02em;
+
+    /* ========== ========== Header 2 | title | h2 ========== ========== */
+    --h2-font-size: 36px;
+    --h2-line-height: 1.11;
+    --h2-letter-spacing: .02em;
+
+    /* ========== ========== Header 3 | subtitle | h3 ========== ========== */
+    --h3-font-weight: 500;
+    --h3-font-size: 20px;
+    --h3-line-height: 1.2;
+    --h3-letter-spacing: .02em;
+
+    /* ========== ========== Small Text ========== ========== */
+    --small-font-size: 12px;
+    --small-font-weight: 400;
+    --small-line-height: 1.17;
+    --small-letter-spacing: .04em;
+
+
+    /* ========== ========== Body Medium ========== ========== */
+    --body-medium-font-size: 16px;
+    --body-medium-font-weight: 500;
+    --body-medium-line-height: 1.5;
+    --body-medium-letter-spacing: .02em;
+
+    /* ========== ========== Button Text ========== ========== */
+    --button-font-family: "Roboto", sans-serif;
+    --button-font-size: 16px;
+    --button-font-weight: 500;
+    --button-line-height: 1.5;
+    --button-letter-spacing: .04em;
+
+    /* ========== ========== Link Text ========== ========== */
+    --link-font-size: 12px;
+    --link-font-weight: 400;
+    --link-line-height: 1.33;
+    --link-letter-spacing: .04em;
+
+    /* ========== ========== Logo ==========  ========== */
+    --logo-font-family: "Raleway", sans-serif;
+    --logo-font-size: 18px;
+    --logo-font-weight: 800;
+    --logo-line-height: 1.17;
+    --logo-letter-spacing: .03em;
+}
